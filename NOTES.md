@@ -11,10 +11,25 @@
 - [ ] aprašome stilių:
     - turinys turi būti ekrano centre
     - turinys bus fiksuoto pločio (pikseliais)
-    - stilių atskirti nuo HTML
+    - stilių (css) atskirti nuo HTML
+- [ ] Readme.md
+- [ ] Paviešinti projektą per Github Pages (gausim URL)
 
-    # Pasiskaitymui 
+ # Pasiskaitymui 
 
     apie čia naudojamą sintaksę MD (Markdown)
     https://www.markdownguide.org/getting-started/
-    
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mergaitė</title>
+</head>
+<body>
+   Turinys
+</body>
+</html>
+```
