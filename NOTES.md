@@ -6,9 +6,9 @@
 - [x] Paviešinti projektą per Github Pages (gausim URL)
 - [x] Readme.md
     - skirta aprašyti kas, ką ir kodėl daro
-    - įterpti į galiojantį dizainą
+    - įterpti nuorodą į galiojantį dizainą
     - įterpti nuorodą, kur tas kodas gali būti pamatytas
-- [ ] atlikti dizaino analize
+- [x] atlikti dizaino analize
 - [ ] surašyti HTML
 - [ ] išsikirpti nuotraukas ir jas panaudoti:
     - panaudoti reliatyvų kelią
