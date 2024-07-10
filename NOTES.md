@@ -3,6 +3,11 @@
 - [x] pradinė failų struktūra:
     - index.html
     - gitignore
+- [x] Paviešinti projektą per Github Pages (gausim URL)
+- [x] Readme.md
+    - skirta aprašyti kas, ką ir kodėl daro
+    - įterpti į galiojantį dizainą
+    - įterpti nuorodą, kur tas kodas gali būti pamatytas
 - [ ] atlikti dizaino analize
 - [ ] surašyti HTML
 - [ ] išsikirpti nuotraukas ir jas panaudoti:
@@ -12,13 +17,14 @@
     - turinys turi būti ekrano centre
     - turinys bus fiksuoto pločio (pikseliais)
     - stilių (css) atskirti nuo HTML
-- [ ] Readme.md
-- [ ] Paviešinti projektą per Github Pages (gausim URL)
 
  # Pasiskaitymui 
 
     apie čia naudojamą sintaksę MD (Markdown)
     https://www.markdownguide.org/getting-started/
+    Nuoroda į projektą: https://ausra123.github.io/5-mergaite/
+
+Ką mes atliekame žymime laužtiniuose skliaustuose "[x]"
 
 ```html
 <!DOCTYPE html>
