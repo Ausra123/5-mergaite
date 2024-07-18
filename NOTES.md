@@ -9,8 +9,8 @@
     - įterpti nuorodą į galiojantį dizainą
     - įterpti nuorodą, kur tas kodas gali būti pamatytas
 - [x] atlikti dizaino analize
-- [ ] surašyti HTML
-- [ ] išsikirpti nuotraukas ir jas panaudoti:
+- [x] surašyti HTML
+- [x] išsikirpti nuotraukas ir jas panaudoti:
     - panaudoti reliatyvų kelią
     - nuotraukos png formatu (permatomas fonas)
 - [ ] aprašome stilių:
@@ -39,3 +39,10 @@ Ką mes atliekame žymime laužtiniuose skliaustuose "[x]"
 </body>
 </html>
 ```
+ # Paint.net naudojimas
+ Permatomo logotipo kūrimas
+ 1. Magic wand -> tolerance
+ 2. Ctrl+i
+ 3. strl+shift+x
+ 4. Ctrl+s
+ 5. Išsaugome png formatu
