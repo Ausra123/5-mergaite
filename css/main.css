@@ -1,0 +1,13 @@
+body {background-color: rgb(160, 245, 62);} 
+header {display: inline-block;
+    width: 800px;    
+    background-color: aqua;
+margin-left: calc(50% - 400px);
+margin-right: calc(50% - 400px);}
+main {display: inline-block;
+        width: 800px;
+        margin-left: calc(50% - 400px);
+        margin-right: calc(50% - 400px)
+        background-color: rgba(249, 19, 149, 0.705);}
+p {font-size: 24px;
+}
