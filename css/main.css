@@ -4,10 +4,34 @@ header {display: inline-block;
     background-color: aqua;
 margin-left: calc(50% - 400px);
 margin-right: calc(50% - 400px);}
+
+img{display: inline-block;
+    height: auto;
+    width: auto;
+    float: left;
+}
+nav{display: inline-block;
+    float: right;
+    background-color: #ec1111;
+    margin-top: 13px;
+}
+a{display: inline-block;
+    line-height: 24px;
+    font-size: 18px;
+    }
 main {display: inline-block;
         width: 800px;
         margin-left: calc(50% - 400px);
-        margin-right: calc(50% - 400px)
-        background-color: rgba(249, 19, 149, 0.705);}
-p {font-size: 24px;
+        margin-right: calc(50% - 400px);
+    }
+ div {display: inline-block;
+
+}
+h1 {display: inline-block;
+
+}   
+p {display: inline-block; font-size: 24px;
+}
+footer {display: inline-block;
+
 }
