@@ -11,6 +11,7 @@ header {
 }
 body > header > img{
     display: inline-block;
+    /* Ši komanda gali būti pašalinta, nes ji turi inline-block savybę pagal nutylėjimą */
     height: 50px;
     width: auto;
     float: left;
@@ -68,6 +69,7 @@ body > main {
     }
 main > div {
     display: inline-block;
+    /* Ši komanda gali būti pašalinta, nes ji turi inline-block savybę pagal nutylėjimą */
     width: 30%; 
     float: left;
     margin-top: 50px;
