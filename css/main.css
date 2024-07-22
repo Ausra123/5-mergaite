@@ -1,37 +1,97 @@
-body {background-color: rgb(160, 245, 62);} 
-header {display: inline-block;
+body {
+    background-color: rgb(160, 245, 62);
+} 
+header {
+    display: inline-block;
     width: 800px;    
-    background-color: aqua;
-margin-left: calc(50% - 400px);
-margin-right: calc(50% - 400px);}
-
-img{display: inline-block;
-    height: auto;
+    background-color: white;
+    margin-left: calc(50% - 400px);
+    margin-right: calc(50% - 400px);
+    /* formulė, kurioje nesuderinti matavimo vienetai */
+}
+body > header > img{
+    display: inline-block;
+    height: 50px;
     width: auto;
     float: left;
 }
-nav{display: inline-block;
+/* čia nurodyta būtent tėvinių ir vaikinių elemtų stilius */
+main > img{
+    display: inline-block;
+    height: auto;
+    width: 46%; 
     float: right;
-    background-color: #ec1111;
-    margin-top: 13px;
+    margin-left: 2%;
+    margin-right: 2%;
 }
-a{display: inline-block;
+/* fatal error :)
+jeigu parašyčiau body > img */
+nav{
+    display: inline-block;
+    float: right;
+    background-color: transparent;
+    margin-top: 3px;
+}
+nav > a{
+    display: inline-block;
+    float: left;
     line-height: 24px;
     font-size: 18px;
+    border: 2px solid transparent;
+    /* rėmelių savybės, jos gali būti rašomos bet kokia tvarka*/
+    text-decoration: none;
+    padding: 5px;
+    padding-left: 5px;
+    /* mažnasi atstumai tarp teksto */
+    padding-right: 5px;
+     /* mažnasi atstumai tarp teksto */
+    border-radius: 22px;
+    /* mygtuko rėmeliai */
+    border-top-left-radius: 0;
+    border-top-right-radius: 22px;
+    /* Mygtuko rėmelių užapvalinimas */
+    color: blueviolet;
     }
-main {display: inline-block;
-        width: 800px;
-        margin-left: calc(50% - 400px);
-        margin-right: calc(50% - 400px);
+nav > a:last-of-type
+    {border: 2px solid rgb(72, 255, 0);
+    margin-left: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+ }
+/* paskutinio elemento savybės */
+body > main {
+    display: inline-block;
+    width: 800px;
+    margin-left: calc(50% - 400px);
+    margin-right: calc(50% - 400px);
+    margin-top: 40px;
     }
- div {display: inline-block;
-
+main > div {
+    display: inline-block;
+    width: 30%; 
+    float: left;
+    margin-top: 50px;
+    margin-left: 2%;
+    margin-right: 2%;
+    color: blueviolet;
 }
-h1 {display: inline-block;
-
+div > h1 {
+    display: inline-block;
+    width: 100%;
+    font-size: 80px; 
+    margin: 0px;
+    line-height: 40px;
 }   
-p {display: inline-block; font-size: 24px;
+div > p {
+    display: inline-block; 
+    width: 66%; 
+    /* pastraipos dydis, teksto talpinimas */
+    font-size: 24px;
+    margin: 0px;
+    line-height: 30px;
+    margin-top: 50px;
+    /* pastraipos atitraukimas nuo viršaus */
 }
-footer {display: inline-block;
-
+footer {
+    display: inline-block;
 }
