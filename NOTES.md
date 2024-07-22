@@ -13,10 +13,36 @@
 - [x] išsikirpti nuotraukas ir jas panaudoti:
     - panaudoti reliatyvų kelią
     - nuotraukos png formatu (permatomas fonas)
+- [x] aprašome stilių:
+    - turinys turi būti ekrano centre
+    - turinys bus fiksuoto pločio (pikseliais)
+    - stilių (css) atskirti nuo HTML
+# Planas
+
+- [ ] pradinė failų struktūra:
+    - index.html
+    - gitignore
+- [ ] Paviešinti projektą per Github Pages (gausim URL)
+- [ ] Readme.md
+    - skirta aprašyti kas, ką ir kodėl daro
+    - įterpti nuorodą į galiojantį dizainą
+    - įterpti nuorodą, kur tas kodas gali būti pamatytas
+- [ ] atlikti dizaino analize
+- [ ] surašyti HTML
+- [ ] išsikirpti nuotraukas ir jas panaudoti:
+    - panaudoti reliatyvų kelią
+    - nuotraukos png formatu (permatomas fonas)
 - [ ] aprašome stilių:
     - turinys turi būti ekrano centre
     - turinys bus fiksuoto pločio (pikseliais)
     - stilių (css) atskirti nuo HTML
+
+     # HTML/CSS rašymo strategija
+
+    1. Įrašyti HTML
+    2. Įsirašyti CSS slektorius (selector)
+    3. Pradedant nuotėvinio (iš viršaus) selektoriaus, surašome reikiamus stilius
+    4. REPEAT - go to step 1
 
  # Pasiskaitymui 
 
