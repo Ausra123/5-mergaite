@@ -69,6 +69,6 @@ Ką mes atliekame žymime laužtiniuose skliaustuose "[x]"
  Permatomo logotipo kūrimas
  1. Magic wand -> tolerance
  2. Ctrl+i
- 3. strl+shift+x
+ 3. Ctrl+shift+x
  4. Ctrl+s
  5. Išsaugome png formatu
